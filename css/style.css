@@ -1,0 +1,49 @@
+@charset "utf-8";
+body{
+	padding: 0;
+	margin: 0;
+	background: #ebebeb;
+}
+.cmcm-top{
+	width: 100%;
+	height: 22px;
+	background: #dcdcdc;
+	border-bottom: 1px solid #FFFFFF;
+}
+.cmcm-nav{
+	width: 1200px;
+	margin: 0 auto;
+	height: 21px;
+	border: solid 1px red;
+}
+.cmcm-nav .cmcm-hygl{
+	width: 400px;
+	height: 22px;
+	float: left;
+	font-size: 12px;
+	line-height: 22px;
+}
+.cmcm-nav .cmcm-hygl .cmcm-yyzh{
+	padding:0 6px ;
+	color: #F22E00!important;
+}
+.cmcm-nav .cmcm-hygl .cmcm-jrwm{
+	color: #3f66f9!important;
+}
+.cmcm-nav .cmcm-grzx{
+	width: 800px;
+	height: 22px;
+	text-align: right;
+	float: right;
+}
+.cmcm-nav .cmcm-grzx li{
+	float: right;
+	
+}
+.cmcm-nav .cmcm-grzx .a{
+	border-right:1px solid #3C3C3C ;
+	padding: 0px 6px;
+}
+.cmcm-nav .cmcm-grzx .f{
+	color: #FF0000;
+}
