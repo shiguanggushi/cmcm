@@ -8,6 +8,19 @@
         <link rel="stylesheet" href="css/common.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/outdatedBrowser.min.css" />
+        <script type="text/javascript" src="js/jquery-1.1.7.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-slideBox.js" ></script>
+        <script>
+			jQuery(function($){
+				$('#lunbo').slideBox({
+					duration : 0.3,//滚动持续时间，单位：秒
+					easing : 'linear',//swing,linear//滚动特效
+					delay : 5,//滚动延迟时间，单位：秒
+					hideClickBar : false,//不自动隐藏点选按键
+					clickBarRadius : 10
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<header>
@@ -66,6 +79,93 @@
 				</div>
 			</div>
 		</header>
+		<div class="cm-content">
+			<div class="cm-bannner">
+			<div class="cm-lunbo">
+			<!--轮播-->
+			<div id="lunbo" class="slideBox">
+			  <ul class="items">
+			    <li><a href="#" title=""><img src="img/1.jpg"></a></li>
+			    <li><a href="#" title=""><img src="img/2.jpg"></a></li>
+			    <li><a href="#" title=""><img src="img/3.jpg"></a></li>
+			    <li><a href="#" title=""><img src="img/4.jpg"></a></li>
+			    <li><a href="#" title=""><img src="img/5.jpg"></a></li>
+			  </ul>
+			</div>
+			<div class="cm-category">
+				<ul class="cm-category-list clearfix">
+					<li class="category-item">
+						<a href="###" class="cm-title">食品<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+					<li class="category-item">
+						<a href="###" class="cm-title">穿衣<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+					<li class="category-item">
+						<a href="###" class="cm-title">交通<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+					<li class="category-item">
+						<a href="###" class="cm-title">家居<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+					<li class="category-item">
+						<a href="###" class="cm-title">生活<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+					<li class="category-item">
+						<a href="###" class="cm-title">虚拟<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+					<li class="category-item">
+						<a href="###" class="cm-title">童装<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+					<li class="category-item">
+						<a href="###" class="cm-title">运动<i class="iconfont">></i></a>
+						<div class="children clearfix children-col-3">
+							11111111111111111
+						</div>
+					</li>
+				</ul>
+			</div>
+			</div>
+			<!--banner右边-->
+			<div class="cm-me">
+				<div class="cm-aboutme">
+					<p class="cm-ab-me">关于我们</p>
+					<p class="cm-ab-con">城买城卖网是城买城卖商贸有限公司运营管理的电商代购平台网站。城买城卖网虽然是一家卖商品的网站，但我们的核心卖点是服务。因为我们认为，虽然当前市场环境次品、假货已令广大消费者头大，但仅仅保...[<a href="###">详细</a>]</p>
+				</div>
+				<div class="cm-ccdt">
+					<p class="cm-ab-me">城城动态</p>
+					<ul>
+						<li><a href="###">城买城卖9月9正式成立了</a></li>
+						<li><a href="###">城买城卖9月9正式成立了</a></li>
+						<li><a href="###">城买城卖9月9正式成立了</a></li>
+						<li><a href="###">城买城卖9月9正式成立了</a></li>
+						<li><a href="###">城买城卖9月9正式成立了</a></li>
+						<li><a href="###">城买城卖9月9正式成立了</a></li>
+						<li><a href="###">城买城卖9月9正式成立了</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</div>
 		<!--浏览器检测-->
 	<div id="outdated">
          <h6>您的浏览器可以进博物馆了</h6>

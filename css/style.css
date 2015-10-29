@@ -80,7 +80,7 @@ header{
 	margin-top: 42px;
 }
 .cmcm-logoright{
-	width: 966px;/*970px*/
+	width: 970px;/*970px*/
 	height: 100%;
 	float: left;
 }
@@ -238,4 +238,226 @@ header{
     border-radius: 7px 7px 7px 0;
     min-width: 12px;
     text-align: center;
+}
+/*
+ * 中间内容开始
+ */
+.cm-content{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.cm-content .cm-bannner{
+	width: 100%;
+	height: 456px;
+}
+.cm-bannner .cm-lunbo{
+	width: 1000px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+div.slideBox{ 
+	position:relative;
+	width:670px; 
+	height:300px;
+	overflow:hidden;
+}
+div.slideBox ul.items{
+	position:absolute; 
+	float:left; 
+	background:none; 
+	list-style:none; 
+	padding:0px; 
+	margin:0px;
+}
+div.slideBox ul.items li{ 
+	float:left; 
+	background:none; 
+	list-style:none; 
+	padding:0px; 
+	margin:0px;
+}
+div.slideBox ul.items li a{ 
+	float:left; 
+	line-height:normal !important; 
+	padding:0px !important; 
+	border:none;
+}
+div.slideBox ul.items li a img{ 
+	margin:0px !important; 
+	padding:0px !important; 
+	width:1000px;
+	height:456px;
+	display:block; 
+	border:none;
+}
+div.slideBox div.tips{ 
+	position:absolute; 
+	bottom:0px; 
+	width:100%; 
+	height:50px; 
+	overflow:hidden;
+}
+div.slideBox div.tips div.title{ 
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	height:100%;
+}
+div.slideBox div.tips div.title a{ 
+	color:#FFF; 
+	font-size:18px; 
+	line-height:50px; 
+	margin-left:10px; 
+	text-decoration:none;
+}
+div.slideBox div.tips div.title a:hover{ 
+	text-decoration:underline !important;
+}
+div.slideBox div.tips div.nums{ 
+	position:absolute; 
+	right:0px; 
+	top:0px; 
+	height:100%;
+}
+div.slideBox div.tips div.nums a{ 
+	 display:inline-block;
+	 float:left; 
+	 width:20px; 
+	 height:20px; 
+	 background-color:#FFF; 
+	 text-indent:-99999px;
+	 margin:15px 10px 0px 0px;
+}
+div.slideBox div.tips div.nums a.active{ 
+	background-color:#093;
+}
+
+
+
+.cm-category{
+	display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 21;
+    width: 234px;
+    height: 456px;
+    font-size: 14px;
+}
+.cm-category-list{
+    border: 0;
+    color: #fff;
+    background: #333;
+    background: rgba(0,0,0,0.6);
+    height: 416px;
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+    color: #424242;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.category-item{
+
+}
+.cm-title{
+	position: relative;
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.cm-title:hover{
+	background: rgba(0,0,0,0.8);
+	color: #FFFFFF;
+}
+.cm-title i{
+	position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    color: rgba(255,255,255,0.5);
+}
+.iconfont{
+	font-family: "iconfont" !important;
+    font-style: normal;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.children{
+	display: none;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    width: 300px;
+    z-index: 24;
+    height: 458px;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    background: #FFFFFF;
+    opacity: 0.8;
+    -webkit-box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+.cm-me{
+	width: 198px;
+	height: 454px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #999999;
+	text-align: center;
+    background: #FFFFFF;
+}
+.cm-aboutme{
+	width: 100%;
+	height: 236px;
+	overflow: hidden;
+}
+.cm-ab-me{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #999999;
+}
+.cm-ab-con{
+	font-size: 12px;
+	line-height: 24px;
+	text-align: justify;
+	padding: 0 16px;
+	text-indent: 2em;
+}
+.cm-ab-con a{
+	color: #FF0000;
+}
+.cm-ccdt{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+.cm-ccdt ul{
+	text-align: left;
+	padding-left: 10px;
+}
+.cm-ccdt li{
+	line-height: 22px;
+}
+.cm-ccdt a{
+    text-decoration: none;
+    transition: All 0.2s ease;
+    -webkit-transition: All 0.2s ease;
+    -moz-transition: All 0.2s ease;
+    -ms-transition: All 0.2s ease;
+    -o-transition: All 0.2s ease;
+}
+.cm-ccdt a:hover{
+	padding-left: 6px;
+	color: #FF0000;
 }
